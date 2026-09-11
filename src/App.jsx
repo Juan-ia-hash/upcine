@@ -21,6 +21,7 @@ function Header({ go, showNotice }) {
       <button onClick={() => navigate('movies')}>Inicio</button><button onClick={() => navigate('detail')}>Película</button>
       <button onClick={() => showNotice('En UPCINE eliges tu asiento y recibes tu código de reserva al instante.')}>Cómo funciona</button>
       <button onClick={() => showNotice('¿Tienes consultas? Escríbenos a hola@upcine.demo')}>Contacto</button>
+      <div className="mobile-account"><button onClick={() => showNotice('El inicio de sesión estará disponible en la versión completa.')}>Iniciar sesión</button><button className="outline small" onClick={() => showNotice('El registro estará disponible en la versión completa.')}>Registrarse</button></div>
     </nav>
     <div className="account"><button onClick={() => showNotice('El inicio de sesión estará disponible en la versión completa.')}>Iniciar sesión</button><button className="outline small" onClick={() => showNotice('El registro estará disponible en la versión completa.')}>Registrarse</button></div>
   </header>
